@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "../../Assets/images/Trivia-with-Friends.jpg",
+    "altTag": "Trivia with Friends",
+    "cardTitle": "Trivia with Friends",
+    "cardText": "Applications: Bulma CSS, jQuery, API's, SoundManager2, AJAX, JSON, Git Bash, GitHub",
+    "anchorDeployed": "https://dazacher.github.io/Trivia-With-Friends/",
+    "anchorGitHub": "https://github.com/dazacher/Trivia-With-Friends"
+  },
+  {
+    "id": 2,
+    "image": "./Assets/images/WeatherDashboard.png",
+    "altTag": "Weather Dashboard",
+    "cardTitle": "Weather Dashboard",
+    "cardText": "Applications: Bootstrap, JavaScript, jQuery, LocalStorage",
+    "anchorDeployed": "https://dazacher.github.io/Weather-Dashboard/",
+    "anchorGitHub": "https://github.com/dazacher/Weather-Dashboard"
+  },
+  {
+    "id": 3,
+    "image": "./Assets/images/TimeTracker.png",
+    "altTag": "Time Tracker",
+    "cardTitle": "Time Tracker",
+    "cardText": "Applications: Node.js, Express.js, MySql, Sequelize, Travis CI/CD, Passport.js, ESLint, Moment, bCrypt, CSS, HTML, Bootstrap, JavaScript, API’s, AJAX, JSON, Git Bash, GitHub, Heroku, JawsDB",
+    "anchorDeployed": "https://time-tracker-v-2.herokuapp.com/login",
+    "anchorGitHub": "https://github.com/dazacher/Time-Tracker-Project2"
+  },
+  {
+    "id": 4,
+    "image": "./Assets/images/Eat-Da-Burger.jpg",
+    "altTag": "Eat-Da_Burger",
+    "cardTitle": "Eat-Da-Burger",
+    "cardText": "Applications: Handlebars.js, Node.js, MySql, Express, Heroku",
+    "anchorDeployed": "https://eat-da-burger-das.herokuapp.com/",
+    "anchorGitHub": "https://github.com/dazacher/Eat-Da-Burger"
+  },
+  {
+    "id": 5,
+    "image": "./Assets/images/Work-Day-Scheduler.jpg",
+    "altTag": "Work Day Scheduler",
+    "cardTitle": "Work Day Scheduler",
+    "cardText": "Applications: Bootstrap, HTML, CSS",
+    "anchorDeployed": "https://dazacher.github.io/Work_Day_Scheduler/",
+    "anchorGitHub": "https://github.com/dazacher/Work_Day_Scheduler"
+  },
+  {
+    "id": 6,
+    "image": "./Assets/images/OOP-Programming.jpg",
+    "altTag": "OOP-Programming",
+    "cardTitle": "OOP Programming",
+    "cardText": "Applications: Inquirer, HTML, JavaScript, CSS",
+    "anchorDeployed": "https://github.com/dazacher/OOP-Programming",
+    "anchorGitHub": ""
+  }
+]

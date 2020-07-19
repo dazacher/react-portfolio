@@ -1,0 +1,18 @@
+/* set the background color of the navbar */
+.navbar {
+    background-color: #990099;
+    color: white;
+}
+
+.Brand {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top:-7px; 
+    margin-bottom:-7px;
+    width:"300px";
+    color:white;
+    font-weight: bold;
+    font-size: 50em;
+    background-color: #990099;
+    font-family: 'Kalam', cursive;
+}
