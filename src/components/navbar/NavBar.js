@@ -12,8 +12,8 @@ import "./NavBar.css"
 
 const NavbarRx = () => {
   return (
-    <Navbar class="navbar" variant="dark" expand="lg">
-    <Navbar.Brand class="navbar-brand" href="#about">Dee Ann Scanniello</Navbar.Brand>
+    <Navbar className="navbar" variant="dark" expand="lg">
+    <Navbar.Brand className="navbar-brand" href="#about">Dee Ann Scanniello</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">

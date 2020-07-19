@@ -37,7 +37,7 @@ class App extends Component {
               <Portfolio
                 id={project.id}
                 image={project.image}
-                altTag={project.altTage}
+                altTag={project.altTag}
                 cardTitle={project.cardTitle}
                 cardText={project.cardText}
                 anchorDeployed={project.anchorDeployed}

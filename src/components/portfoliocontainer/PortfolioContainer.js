@@ -35,6 +35,19 @@ class PortfolioContainer extends Component {
         />
         {this.renderPage()}
       </div>
+      <Wrapper>
+      {this.state.projects.map(project => (
+        <Portfolio
+          id={project.id}
+          image={project.image}
+          altTag={project.altTag}
+          cardTitle={project.cardTitle}
+          cardText={project.cardText}
+          anchorDeployed={project.anchorDeployed}
+          anchorGitHub={project.anchorGitHub}
+        />
+      ))}
+    </Wrapper>
     );
   }
 }

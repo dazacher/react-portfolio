@@ -1,0 +1,51 @@
+/* Make anchors align center on portfolio page */
+.anchor{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    padding-top: 5px;
+    /* text-align: center; */
+}
+
+/* Wrapper css makes images on portfolio same size */
+.wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .wrapper:after {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+  
+  .wrapper img {
+    width: auto;
+    height: 100%;
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  /* Set the format of the text on the portfolio page */
+.text{
+    text-align: center;
+    width: 100%;
+    background-color: #990099;
+    color:white;
+    font-size: small;
+}
+
+/* Make links look like buttons */
+.button {
+    display: block;
+    width: 115px;
+    height: 20px;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    color: #990099;
+    line-height: 25px;
+}
