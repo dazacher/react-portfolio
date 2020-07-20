@@ -1,0 +1,8 @@
+body{
+    background-image: url("./aia.jpg");
+    background-repeat: yes; 
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Kalam', cursive;
+    width: 100%
+  }

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
+// import Bold from "react-bootstrap/Bold";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
 // import NavDropdown from "react-bootstrap/NavDropdown";
@@ -9,11 +10,13 @@ import "./NavBar.css"
 // import Button from "react-bootstrap/Button";
 
 
+const Size = ({ children }) => <Navbar.Brand style={{ fontSize: 'xx-large' }}>{children}</Navbar.Brand>
+const Bold = ({ children }) => <Navbar.Brand style={{ fontSize: 'bold' }}>{children}</Navbar.Brand>
 
 const NavbarRx = () => {
   return (
     <Navbar className="navbar" variant="dark" expand="lg">
-    <Navbar.Brand className="navbar-brand" href="#about">Dee Ann Scanniello</Navbar.Brand>
+    <Navbar.Brand className="navbar-brand" href="#about"><Bold><Size>Dee Ann Scanniello</Size></Bold></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">

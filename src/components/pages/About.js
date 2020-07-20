@@ -1,6 +1,6 @@
 import React from "react";
 // import HTMLAnchorElement from "react";
-import Me from "../../Assets/images/Me.jpeg";
+// import Me from "../../../Assets/images/Me.jpeg";
 
 import "./About.css";
 import Container from "react-bootstrap/Container";
@@ -13,7 +13,7 @@ function About() {
             <Row>
                 <Col xs={12} md={3} img-fix>
                     {/* <!-- Picture of myself and a couple of paragraphs about myself--> */}
-                    <Image fluid className="responsive-image img-responsive mx-auto" id="deeannImg" src={Me} roundedCircle alt="Dee Ann Scanniello" />
+                    <Image fluid className="responsive-image img-responsive mx-auto" id="deeannImg" src={process.env.PUBLIC_URL + "/Assets/images/Me.jpeg"} roundedCircle alt="Dee Ann Scanniello" />
                 </Col>
                 <Col xs={12} md={9} id="dafs">
                     <h1>I am Dee Ann...</h1>

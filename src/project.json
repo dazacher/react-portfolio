@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/Assets/images/Trivia-with-Friends.jpg",
+    "image": "./Assets/images/Trivia-with-Friends.jpg",
     "altTag": "Trivia with Friends",
     "cardTitle": "Trivia with Friends",
     "cardText": "Applications: Bulma CSS, jQuery, API's, SoundManager2, AJAX, JSON, Git Bash, GitHub",

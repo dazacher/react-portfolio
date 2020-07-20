@@ -1,13 +1,4 @@
-body{
-  /* background-image: url("Assets/Images/MilkyWay.jpg"); */
-  /* background-image: url("Assets/Images/mural.jpg"); */
-  background-image: url("./Assets/images/aia.jpg");
-  background-repeat: yes; 
-  background-size: cover; 
-  background-position: center;
-  font-family: 'Kalam', cursive;
-  width: 105%
-}
+
 
 /* Make the contact icons highlight when hovered over */
 #emailImage:hover {

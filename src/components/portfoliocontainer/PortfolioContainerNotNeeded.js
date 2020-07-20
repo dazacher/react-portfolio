@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import NavBar from "../navbar/NavBar";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Portfolio from "../pages/Portfolio";
