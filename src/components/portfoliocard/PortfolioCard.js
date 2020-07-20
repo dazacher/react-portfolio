@@ -10,19 +10,15 @@ import "./PortfolioCard.css"
 
 function PortfolioCard(props) {
   return (
-    // <Wrapper>
-    // <Container fluid className="text-center">
-    //   {/* <CardDeck> */}
-    //   {/* <Row className="text-center"> */}
-         <Col xl={4}>
+         <Col sm={6} md={4}>
           <Card className="cardBody">
             <Card.Img responsive variant="top" src={process.env.PUBLIC_URL + props.image} alt={props.altTag} />
             <Card.Body  className="text">
-              <Card.Title>{props.cardTitle}</Card.Title>
+              <Card.Title className="cardTitle">{props.cardTitle}</Card.Title>
               <Card.Text>
                 {props.cardText}
               </Card.Text>
-              <Row>
+              <Row className="anchorRow">
               {/* <!-- Links to GitHub deployed website and github code --> */}
                 <Col md={6} className="anchor">
                   <a id="anchor1" class="button" href={props.anchorDeployed}
@@ -33,12 +29,9 @@ function PortfolioCard(props) {
                     target="_blank">GitHub Code</a>
                 </Col>
               </Row>
-              <br></br><br></br>
             </Card.Body>
           </Card>
         </Col>
-    //   {/* </Row> */}
-    // </Container >
     );
 };
 

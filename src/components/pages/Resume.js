@@ -1,10 +1,10 @@
 import React from "react";
-import Pdf from "../../Assets/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"
+// import Pdf from "./components/pages/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"
 
-function Resume() {
+function Resume(props1) {
   return (
     <>
-    {/* <a href={Pdf} id="fileImage"/> */}
+    <a href={props1} id="fileImage"/>
     </>
   );
 }

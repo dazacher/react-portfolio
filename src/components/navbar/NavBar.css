@@ -4,15 +4,16 @@
     color: white;
 }
 
-.Brand {
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top:-7px; 
-    margin-bottom:-7px;
+.navbar-brand {
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:-5px; 
+    margin-bottom:-5px;
     width:"300px";
     color:white;
     font-weight: bold;
-    font-size: calc(150px + 2vmin);
+    /* font-size: calc(150px + 2vmin); */
     /* font-size: xx-large; */
     background-color: #990099;
     font-family: 'Kalam', cursive;

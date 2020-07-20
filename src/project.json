@@ -50,7 +50,7 @@
     "altTag": "OOP-Programming",
     "cardTitle": "OOP Programming",
     "cardText": "Applications: Inquirer, HTML, JavaScript, CSS",
-    "anchorDeployed": "https://github.com/dazacher/OOP-Programming",
-    "anchorGitHub": ""
+    "anchorDeployed": "alert(`No Deployed Website for this app`)",
+    "anchorGitHub": "https://github.com/dazacher/OOP-Programming"
   }
 ]

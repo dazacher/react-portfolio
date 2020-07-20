@@ -8,73 +8,98 @@ import "./Contact.css";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreact';
 
 
-const Contact = () => {
-  return (
-    <>
-      <MDBContainer fluid>
-          <MDBRow>
+class Contact extends Component {
+state = {
+  name: "",
+  email: "",
+  subject: "",
+  message: ""
+}
+
+handleChange = event => {
+  const inputId = event.target.name;
+  const value = event.target.value;
+  this.setState({ [inputId]: value })
+}
+
+  render() {
+
+    return (
+      <><MDBContainer>
+        <MDBContainer fluid>
+          <row >
             <MDBCol xs="12">
               <h2>Contact</h2>
             </MDBCol>
-          </MDBRow>
+          </row>
           <MDBRow id="straight-line">
-            <MDBCol xs="12">
-
+          </MDBRow>
+        </MDBContainer>
+        <MDBContainer fluid>
+          <MDBRow className="formRow">
+            <MDBCol md='6'>
+              <form action="mailto:dazacher2000@yahoo.com" method="POST" encType="text/plain" className='hoverable' style={{ padding: 38 }}>
+                <div className='grey-text'>
+                  <MDBInput
+                    label='Your Name'
+                    name="name"
+                    value={this.state.name}
+                    onChange={this.handleChange}
+                    icon='user'
+                    group
+                    type='text'
+                    validate
+                    error='wrong'
+                    success='right'
+                  />
+                  <MDBInput
+                    label='E-mail Address'
+                    icon='envelope'
+                    name="email"
+                    value={this.state.email}
+                    onChange={this.handleChange}
+                    group
+                    type='email'
+                    validate
+                    error='wrong'
+                    success='right'
+                  />
+                  <MDBInput
+                    label='Subject'
+                    icon='tag'
+                    name="subject"
+                    value={this.state.subject}
+                    onChange={this.handleChange}
+                    group
+                    type='text'
+                    validate
+                    error='wrong'
+                    success='right'
+                  />
+                  <MDBInput
+                    type='textarea'
+                    name="message"
+                    value={this.state.message}
+                    onChange={this.handleChange}
+                    rows='2'
+                    label='Your message please...'
+                    icon='pencil-alt'
+                  />
+                </div>
+                <div className='text-center'>
+                  <button outline className="fa submitButton">
+                    Submit <MDBIcon far icon='paper-plane' className='ml-1' />
+                  </button>
+                </div>
+              </form>
             </MDBCol>
           </MDBRow>
+        </MDBContainer>
       </MDBContainer>
-      <MDBContainer fluid>
-        <MDBRow>
-          <MDBCol md='6'>
-            <form action="mailto:dazacher2000@yahoo.com" method="POST" encType="text/plain" className='hoverable' style={{ padding: 38 }}>
-              <div className='grey-text'>
-                <MDBInput
-                  label='Your Name'
-                  icon='user'
-                  group
-                  type='text'
-                  validate
-                  error='wrong'
-                  success='right'
-                />
-                <MDBInput
-                  label='E-mail Address'
-                  icon='envelope'
-                  group
-                  type='email'
-                  validate
-                  error='wrong'
-                  success='right'
-                />
-                <MDBInput
-                  label='Subject'
-                  icon='tag'
-                  group
-                  type='text'
-                  validate
-                  error='wrong'
-                  success='right'
-                />
-                <MDBInput
-                  type='textarea'
-                  rows='2'
-                  label='Your message please...'
-                  icon='pencil-alt'
-                />
-              </div>
-              <div className='text-center'>
-                <button outline className="fa submitButton">
-                  Submit <MDBIcon far icon='paper-plane' className='ml-1' />
-                </button>
-              </div>
-            </form>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-    </>
-  );
+      </>
+    );
+  };
 };
-
 //   constructor(props) {
 //     super(props);
 //     this.state = {
