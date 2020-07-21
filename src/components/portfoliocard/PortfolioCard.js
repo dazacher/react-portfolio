@@ -12,7 +12,7 @@ function PortfolioCard(props) {
   return (
          <Col sm={6} md={4}>
           <Card className="cardBody">
-            <Card.Img responsive variant="top" src={process.env.PUBLIC_URL + props.image} alt={props.altTag} />
+            <Card.Img responsive variant="top" src={props.image} alt={props.altTag} />
             <Card.Body  className="text">
               <Card.Title className="cardTitle">{props.cardTitle}</Card.Title>
               <Card.Text>
