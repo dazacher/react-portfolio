@@ -3,8 +3,8 @@ import PortfolioCard from "../portfoliocard/PortfolioCard";
 // import NavBar from "../navbar/NavBar";
 import Wrapper from "../wrapper/Wrapper"
 import Row from "react-bootstrap/Row";
-import CardDeck from "react-bootstrap/CardDeck";
-import Col from "react-bootstrap/Col";
+// import CardDeck from "react-bootstrap/CardDeck";
+// import Col from "react-bootstrap/Col";
 import "./Portfolio.css"
 
 function Portfolio(props) {

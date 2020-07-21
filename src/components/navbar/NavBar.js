@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 import "./NavBar.css"
+// import Resume from "../pages/Resume";
 // import Form from "react-bootstrap/Form";
 // import FormControl from "react-bootstrap/FormControl";
 // import Button from "react-bootstrap/Button";
@@ -16,7 +17,7 @@ const Bold = ({ children }) => <Navbar.Brand style={{ fontSize: 'bold' }}>{child
 const NavbarRx = () => {
   return (
     <Navbar className="navbar" variant="dark" expand="lg">
-    <Navbar.Brand className="navbar-brand" href="#about"><Bold><Size>Dee Ann Scanniello</Size></Bold></Navbar.Brand>
+    <Navbar.Brand className="navbar-brand" href="/"><Bold><Size>Dee Ann Scanniello</Size></Bold></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
@@ -28,7 +29,7 @@ const NavbarRx = () => {
           <NavLink to="/portfolio" className="nav-link">
             Portfolio
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
+        <NavLink className="nav-link" to={`${"../pages/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"}/Resume`}>
             Resume
         </NavLink>
           <Nav.Link href="/contact">Contact</Nav.Link>

@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 // import Button from "react-bootstrap/Button";
 // import CardDeck from "react-bootstrap/CardDeck";
-import Container from "react-bootstrap/esm/Container";
+// import Container from "react-bootstrap/esm/Container";
 import "./PortfolioCard.css"
 // import Wrapper from "../wrapper/Wrapper"
 
@@ -21,11 +21,11 @@ function PortfolioCard(props) {
               <Row className="anchorRow">
               {/* <!-- Links to GitHub deployed website and github code --> */}
                 <Col md={6} className="anchor">
-                  <a id="anchor1" class="button" href={props.anchorDeployed}
+                  <a id="anchor1" class="button" href={props.anchorDeployed} rel="noopener noreferrer"
                     target="_blank">Website</a>
                 </Col>
                 <Col md={6} className="anchor">
-                  <a id="anchor2" class="button" href={props.anchorGitHub}
+                  <a id="anchor2" class="button" href={props.anchorGitHub} rel="noopener noreferrer"
                     target="_blank">GitHub Code</a>
                 </Col>
               </Row>
