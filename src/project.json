@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../../assets/images/Trivia-with-Friends.jpg",
+    "image": "Trivia-with-Friends.jpg",
     "altTag": "Trivia with Friends",
     "cardTitle": "Trivia with Friends",
     "cardText": "Applications: Bulma CSS, jQuery, API's, SoundManager2, AJAX, JSON, Git Bash, GitHub",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "../../assets/images/WeatherDashboard.png",
+    "image": "WeatherDashboard.png",
     "altTag": "Weather Dashboard",
     "cardTitle": "Weather Dashboard",
     "cardText": "Applications: Bootstrap, JavaScript, jQuery, LocalStorage",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "./assets/images/TimeTracker.png",
+    "image": "TimeTracker.png",
     "altTag": "Time Tracker",
     "cardTitle": "Time Tracker",
     "cardText": "Applications: Node.js, Express.js, MySql, Sequelize, Travis CI/CD, Passport.js, ESLint, Moment, bCrypt, CSS, HTML, Bootstrap, JavaScript, API’s, AJAX, JSON, Git Bash, GitHub, Heroku, JawsDB",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image": "../../assets/images/Eat-Da-Burger.jpg",
+    "image": "Eat-Da-Burger.jpg",
     "altTag": "Eat-Da_Burger",
     "cardTitle": "Eat-Da-Burger",
     "cardText": "Applications: Handlebars.js, Node.js, MySql, Express, Heroku",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image": "../../assets/images/Work-Day-Scheduler.jpg",
+    "image": "Work-Day-Scheduler.jpg",
     "altTag": "Work Day Scheduler",
     "cardTitle": "Work Day Scheduler",
     "cardText": "Applications: Bootstrap, HTML, CSS",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "image": "../../assets/images/OOP-Programming.jpg",
+    "image": "OOP-Programming.jpg",
     "altTag": "OOP-Programming",
     "cardTitle": "OOP Programming",
     "cardText": "Applications: Inquirer, HTML, JavaScript, CSS",

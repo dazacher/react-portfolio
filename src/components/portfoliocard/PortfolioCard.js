@@ -9,11 +9,13 @@ import "./PortfolioCard.css"
 // import "../../assets/images/Eat-da-Burger"
 // import Wrapper from "../wrapper/Wrapper"
 
+const imagecontext=require.context("../../assets/images", true)
+
 function PortfolioCard(props) {
   return (
          <Col sm={6} md={4}>
           <Card className="cardBody">
-            <Card.Img responsive variant="top" src={props.image} alt={props.altTag} />
+            <Card.Img responsive variant="top" src={imagecontext("./" + props.image)} alt={props.altTag} />
             <Card.Body  className="text">
               <Card.Title className="cardTitle">{props.cardTitle}</Card.Title>
               <Card.Text>
