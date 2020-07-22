@@ -1,5 +1,5 @@
 body{
-    background-image: url("../src/Assets/images/aia.jpg");
+    background-image: url("./assets/images/aia.jpg");
     background-repeat: yes; 
     background-size: cover; 
     background-position: center;

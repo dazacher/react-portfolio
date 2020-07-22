@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Container from "./components/container/Container"
 import NavBar from "./components/navbar/NavBar"
 import Footer from "./components/footer/Footer"
@@ -21,18 +21,18 @@ class App extends Component {
 
   render() {
     return (
-      <>
-        <Router>
+  
+        <Router basename={process.env.PUBLIC_URL}>
           <NavBar />
-
-          <Route exact path="/" component={About} />
-          <Route exact path="/portfolio" render={(props) => <Portfolio {...props} projects={this.state.projects} />} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/contact" component={Contact} />
-
+          <Switch>
+            <Route exact path="/" component={About} />
+            <Route exact path="/portfolio" render={(props) => <Portfolio {...props} projects={this.state.projects} />} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+          <Footer />
         </Router>
-        <Footer />
-      </>
+     
     );
   };
 };

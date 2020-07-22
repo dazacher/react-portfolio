@@ -1,10 +1,10 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Email from "../../Assets/images/email-32.png"
-import GitHub from "../../Assets/images/github-9-32.png"
-import Pdf from "../../Assets/images/document-32.png"
-import LinkedIn from "../../Assets/images/linkedin-3-32.png"
+import Email from "../../assets/images/email-32.png"
+import GitHub from "../../assets/images/github-9-32.png"
+import Pdf from "../../assets/images/document-32.png"
+import LinkedIn from "../../assets/images/linkedin-3-32.png"
 import "./Footer.css";
 import Container from "react-bootstrap/esm/Container";
 

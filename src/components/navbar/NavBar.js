@@ -32,7 +32,7 @@ const NavbarRx = () => {
         <NavLink className="nav-link" to={`${"../pages/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"}/Resume`}>
             Resume
         </NavLink>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          <NavLink href="/contact">Contact</NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

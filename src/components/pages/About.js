@@ -1,6 +1,6 @@
 import React from "react";
 // import HTMLAnchorElement from "react";
-import Me from "../../Assets/images/Me.jpeg";
+import Me from "../../assets/images/Me.jpeg";
 
 import "./About.css";
 import Container from "react-bootstrap/Container";
