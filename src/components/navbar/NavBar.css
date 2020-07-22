@@ -2,15 +2,16 @@
 .navbar {
     background-color: #990099;
     color: white;
+    padding-right: 120px;
 }
 
 .navbar-brand {
-    padding-left: 15px;
+    padding-left: 5px;
     /* padding-top: 20px;
     padding-bottom: 20px; */
     margin-top:-5px; 
     margin-bottom:-5px;
-    width:"300px";
+    width:100%;
     color:white;
     font-weight: bold;
     /* font-size: calc(150px + 2vmin); */

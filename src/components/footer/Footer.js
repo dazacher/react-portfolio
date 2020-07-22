@@ -20,7 +20,7 @@ const Footer = () => {
                     <a href="https://github.com/dazacher" target="_blank" rel="noopener noreferrer" id="githubImage">
                         <img src={GitHub} class="indexImages" alt="Github" id="github" /></a>
                     {/* <!-- Link to my Resume page --> */}
-                    <a href={(require("../pages/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"))} id="fileImage">
+                    <a href={(require("../../assets/images/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"))} id="fileImage">
                         <img src={Pdf} class="indexImages" alt="Resume" id="file" />
                     </a>
                     {/* <!-- Link to my LinkedIn page --> */}

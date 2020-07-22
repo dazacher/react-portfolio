@@ -17,19 +17,17 @@ const Bold = ({ children }) => <Navbar.Brand style={{ fontSize: 'bold' }}>{child
 const NavbarRx = () => {
   return (
     <Navbar className="navbar" variant="dark" expand="lg">
-    <Navbar.Brand className="navbar-brand" to="/"><Bold><Size>Dee Ann Scanniello</Size></Bold></Navbar.Brand>
+    <Navbar.Brand className="navbar-brand" href="/"><Bold><Size>Dee Ann Scanniello</Size></Bold></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          {/* <Nav.Link href="../pages/About">About</Nav.Link> */}
           <NavLink to="/" exact className="nav-link">
             About
         </NavLink>
-          {/* <Nav.Link href="#profile">Profile</Nav.Link> */}
           <NavLink to="/portfolio" className="nav-link">
             Portfolio
         </NavLink>
-        <NavLink className="nav-link" to={`${"../pages/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"}/Resume`}>
+        <NavLink className="nav-link" to={(require("../../assets/images/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"))}>
             Resume
         </NavLink>
           <NavLink className="nav-link" to="/contact">Contact</NavLink>
