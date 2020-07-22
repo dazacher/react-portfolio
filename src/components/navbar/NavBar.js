@@ -16,7 +16,7 @@ const Bold = ({ children }) => <Navbar.Brand style={{ fontSize: 'bold' }}>{child
 
 const NavbarRx = () => {
   return (
-    <Navbar className="navbar" variant="dark" expand="lg">
+    <Navbar className="navbar" responisve variant="dark" expand="lg">
     <Navbar.Brand className="navbar-brand" href="/"><Bold><Size>Dee Ann Scanniello</Size></Bold></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
