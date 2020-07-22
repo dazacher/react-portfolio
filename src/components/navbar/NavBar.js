@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 // import Bold from "react-bootstrap/Bold";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
+import Pdf from "../../assets/images/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 import "./NavBar.css"
 // import Resume from "../pages/Resume";
@@ -27,7 +28,7 @@ const NavbarRx = () => {
           <NavLink to="/portfolio" className="nav-link">
             Portfolio
         </NavLink>
-        <NavLink className="nav-link" to={(require("../../assets/images/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"))}>
+        <NavLink className="nav-link" to={Pdf}>
             Resume
         </NavLink>
           <NavLink className="nav-link" to="/contact">Contact</NavLink>

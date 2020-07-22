@@ -34,6 +34,12 @@
     .deeann {display: inline;}
 }
 
+/* Media query to mage personalized text on index page align properly at diferent sizes */
+/* @media (max-width: 568px) {
+    h1 {display: inline;}
+} */
+
+
 /* add padding so text is not at top of screen */
 #dafs{
     padding-top: 50px;
