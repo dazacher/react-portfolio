@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 // import CardDeck from "react-bootstrap/CardDeck";
 // import Container from "react-bootstrap/esm/Container";
 import "./PortfolioCard.css"
+import "../../assets/images/Eat-da-Burger"
 // import Wrapper from "../wrapper/Wrapper"
 
 function PortfolioCard(props) {
