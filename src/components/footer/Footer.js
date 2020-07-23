@@ -11,6 +11,11 @@ import Container from "react-bootstrap/esm/Container";
 const Footer = () => {
     return (
         <Container class="contactInfo" rfluid>
+            <Row>
+                <Col xs={12}>
+                    <h4>Contact Me! I look forward to working with you.</h4>
+                </Col>
+            </Row>
             <Row className="text-center"> 
                 <Col xs={12}>
                     {/* <!-- Link to my email address so someone can email me. --> */}

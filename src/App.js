@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
-// import Container from "./components/container/Container"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar"
 import Footer from "./components/footer/Footer"
 import About from "./components/pages/About";
