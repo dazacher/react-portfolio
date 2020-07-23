@@ -15,7 +15,7 @@ function PortfolioCard(props) {
   return (
          <Col sm={6} md={4}>
           <Card className="cardBody">
-            <Card.Img responsive variant="top" src={imagecontext("./" + props.image)} alt={props.altTag} />
+            <Card.Img responsive="true" variant="top" src={imagecontext("./" + props.image)} alt={props.altTag} />
             <Card.Body  className="text">
               <Card.Title className="cardTitle">{props.cardTitle}</Card.Title>
               <Card.Text>
@@ -24,11 +24,11 @@ function PortfolioCard(props) {
               <Row className="anchorRow">
               {/* <!-- Links to GitHub deployed website and github code --> */}
                 <Col md={6} className="anchor">
-                  <a id="anchor1" class="button" href={props.anchorDeployed} rel="noopener noreferrer"
+                  <a id="anchor1" className="button" href={props.anchorDeployed} rel="noopener noreferrer"
                     target="_blank">Website</a>
                 </Col>
                 <Col md={6} className="anchor">
-                  <a id="anchor2" class="button" href={props.anchorGitHub} rel="noopener noreferrer"
+                  <a id="anchor2" className="button" href={props.anchorGitHub} rel="noopener noreferrer"
                     target="_blank">GitHub Code</a>
                 </Col>
               </Row>

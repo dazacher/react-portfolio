@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.css";
-// get our fontawesome imports
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import { faUser } from "@fortawesome/free-solid-svg-icons";
-// import { faComment } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Row from "react-bootstrap/Row";
 import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBInput } from 'mdbreact';
 
 
@@ -20,14 +16,14 @@ class Contact extends Component {
     };
   };
 
-  handleChange = event => {
+  handleChange = (event) => {
     const inputId = event.target.name;
     const value = event.target.value;
     this.setState({ [inputId]: value })
   }
 
   resetForm = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     this.setState({
       name: "",
       email: "",
@@ -35,16 +31,30 @@ class Contact extends Component {
       message: ""
     })
   }
+
+  sendMail = (event) => {
+    event.preventDefault();
+    var yourMessage = this.state.message;
+    var subject = this.state.subject;
+    document.location.href = "mailto:dazacher2000@yahoo.com?subject="
+      + encodeURIComponent(subject)
+      + "&body=" + encodeURIComponent(yourMessage);
+    this.resetForm();
+  };
+
+  // encodeURIComponent(JSON.stringify({name, yourMessage}));
+
   render() {
 
     return (
       <><MDBContainer>
         <MDBContainer fluid>
-          <row >
+          <Row >
             <MDBCol xs="12">
               <h2>Contact</h2>
+              <h6>dazacher2000@yahoo.com</h6>
             </MDBCol>
-          </row>
+          </Row>
           <MDBRow id="straight-line">
           </MDBRow>
         </MDBContainer>
@@ -64,7 +74,7 @@ class Contact extends Component {
                     validate
                     error='wrong'
                     success='right'
-                    placeholder="Enter Your Name"
+                    placeHolder="Enter Your Name"
                   />
                   <MDBInput
                     icon='envelope'
@@ -77,7 +87,7 @@ class Contact extends Component {
                     validate
                     error='wrong'
                     success='right'
-                    placeholder="Enter Your E-mail Address"
+                    placeHolder="Enter Your E-mail Address"
                   />
                   <MDBInput
                     label='Subject'
@@ -90,7 +100,7 @@ class Contact extends Component {
                     validate
                     error='wrong'
                     success='right'
-                    placeholder="Enter A Subject"
+                    placeHolder="Enter A Subject"
                   />
                   <MDBInput
                     type='textarea'
@@ -100,15 +110,15 @@ class Contact extends Component {
                     rows='2'
                     label='Your message please...'
                     icon='pencil-alt'
-                    placeholder="Enter Your Message Here...."
+                    placeHolder="Enter Your Message Here...."
                   />
                 </div>
                 <div className='text-center'>
-                  <button outline
+                  <button
                     type="submit"
                     value="send"
                     className="fa submitButton"
-                    onCLick={this.resetForm}>
+                    onClick={this.sendMail}>
                     Submit <MDBIcon far icon='paper-plane' className='ml-1' />
                   </button>
                 </div>

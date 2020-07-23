@@ -16,7 +16,7 @@ function Portfolio(props) {
           {
             props.projects.map(project => (
               <PortfolioCard
-                id={project.id}
+                key={project.id}
                 image={project.image}
                 altTag={project.altTag}
                 cardTitle={project.cardTitle}

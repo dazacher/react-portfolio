@@ -11,7 +11,7 @@ function About() {
     return (
         <Container id="index">
             <Row>
-                <Col xs={12} md={3} img-fix>
+                <Col xs={12} md={3} className="img-fix">
                     {/* <!-- Picture of myself and a couple of paragraphs about myself--> */}
                     <Image fluid className="responsive-image img-responsive mx-auto" id="deeannImg" src={Me} roundedCircle alt="Dee Ann Scanniello" />
                 </Col>
@@ -26,7 +26,7 @@ function About() {
                 </Col-12>
             </Row>
             <Row>
-                <Col pull-left>
+                <Col>
                     {/* <!-- Picture of myself and a couple of paragraphs about myself--> */}
                     <p>
 
