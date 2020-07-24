@@ -54,6 +54,7 @@ class Contact extends Component {
             <MDBCol xs="12">
               <h2>Contact</h2>
               <h6>dazacher2000@yahoo.com</h6>
+              <h6>(480) 580-8769</h6>
             </MDBCol>
           </Row>
           <MDBRow id="straight-line">
