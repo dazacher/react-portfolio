@@ -11,13 +11,13 @@
   },
   {
     "id": 2,
-    "image": "WeatherDashboard.png",
-    "altTag": "Weather Dashboard",
-    "cardTitle": "Weather Dashboard",
-    "cardText": "Look up the weather anywhere in the United States to plan a vacation.",
-    "cardApplications": "Applications: Bootstrap, JavaScript, jQuery, LocalStorage",
-    "anchorDeployed": "https://dazacher.github.io/Weather-Dashboard/",
-    "anchorGitHub": "https://github.com/dazacher/Weather-Dashboard"
+    "image": "Budget-Tracker.jpg",
+    "altTag": "Budget Tracker",
+    "cardTitle": "Budget Tracker",
+    "cardText": "Electronic transaction app to use on the go.",
+    "cardApplications": "Applications: Bootstrap, PWA, MongoDB, IndexDB for Offline functionality, Heroku, Travis CI/CD",
+    "anchorDeployed": "https://budget-tracker-das.herokuapp.com/",
+    "anchorGitHub": "https://github.com/dazacher/Budget-Tracker"
   },
   {
     "id": 3,
@@ -35,19 +35,19 @@
     "altTag": "Eat-Da_Burger",
     "cardTitle": "Eat-Da-Burger",
     "cardText": "Have a little fun devouring burgers.",
-    "cardApplications": "Applications: Handlebars.js, Node.js, MySql, Express, Heroku",
+    "cardApplications": "Applications: Handlebars.js, Node.js, MySql, Express, Heroku, Travis CI/CD",
     "anchorDeployed": "https://eat-da-burger-das.herokuapp.com/",
     "anchorGitHub": "https://github.com/dazacher/Eat-Da-Burger"
   },
   {
     "id": 5,
-    "image": "Work-Day-Scheduler.jpg",
-    "altTag": "Work Day Scheduler",
-    "cardTitle": "Work Day Scheduler",
-    "cardText": "Keep track of your appointments and activities on a daily basis.",
-    "cardApplications": "Applications: Bootstrap, HTML, CSS",
-    "anchorDeployed": "https://dazacher.github.io/Work_Day_Scheduler/",
-    "anchorGitHub": "https://github.com/dazacher/Work_Day_Scheduler"
+    "image": "employee-directory.jpg",
+    "altTag": "Employee Directory",
+    "cardTitle": "Employee Directory",
+    "cardText": "Keep track of your employees, search and filter by all fields.",
+    "cardApplications": "Applications: Material Design for React Bootstrap, React.js, CSS",
+    "anchorDeployed": "https://dazacher.github.io/employee-directory/",
+    "anchorGitHub": "https://github.com/dazacher/employee-directory"
   },
   {
     "id": 6,
