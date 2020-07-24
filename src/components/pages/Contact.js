@@ -50,7 +50,7 @@ class Contact extends Component {
     return (
       <><MDBContainer>
         <MDBContainer fluid>
-          <Row >
+          <Row  className="contactSpacing">
             <MDBCol xs="12">
               <h2>Contact</h2>
               <h6>dazacher2000@yahoo.com</h6>
