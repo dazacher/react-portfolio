@@ -8,7 +8,6 @@ import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import resume from "./components/pages/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"
 import projects from "./project.json"
 
 class App extends Component {
