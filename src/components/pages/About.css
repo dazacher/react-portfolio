@@ -15,15 +15,21 @@
     text-align: center;
 }
 
-/* Media query to mage image on index page align properly at diferent sizes */
-@media (min-width: 768px) {
-    .img-responsive {float: left;}
+/* add padding so text is not at top of screen */
+#dafs{
+    padding-top: 50px;
 }
 
+
+/* Media query to mage image on index page align properly at diferent sizes */
+/* @media (min-width: 768px) {
+    .img-responsive {float: left;}
+} */
+
 /* Media query to mage personalized text on index page align properly at diferent sizes */
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
     .deeann {display: inline;}
-}
+} */
 
 /* Media query to mage personalized text on index page align properly at diferent sizes */
 /* @media (max-width: 568px) {
@@ -31,7 +37,3 @@
 } */
 
 
-/* add padding so text is not at top of screen */
-#dafs{
-    padding-top: 50px;
-   }
