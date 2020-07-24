@@ -19,7 +19,7 @@ function Portfolio(props) {
                 altTag={project.altTag}
                 cardTitle={project.cardTitle}
                 cardText={project.cardText}
-                cardApplication={project.cardApplication}
+                cardApplications={project.cardApplications}
                 anchorDeployed={project.anchorDeployed}
                 anchorGitHub={project.anchorGitHub}
               />
