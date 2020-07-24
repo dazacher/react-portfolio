@@ -4,7 +4,8 @@
     "image": "Trivia-with-Friends.jpg",
     "altTag": "Trivia with Friends",
     "cardTitle": "Trivia with Friends",
-    "cardText": "A fun trivia style game. Keep track of high score and try to beat it.<br>Applications: Bulma CSS, jQuery, API's, SoundManager2, AJAX, JSON, Git Bash, GitHub",
+    "cardText": "A fun trivia style game. Keep track of high score and try to beat it.",
+    "cardApplications": "Applications: Bulma CSS, jQuery, API's, SoundManager2, AJAX, JSON, Git Bash, GitHub",
     "anchorDeployed": "https://dazacher.github.io/Trivia-With-Friends/",
     "anchorGitHub": "https://github.com/dazacher/Trivia-With-Friends"
   },
@@ -13,7 +14,8 @@
     "image": "WeatherDashboard.png",
     "altTag": "Weather Dashboard",
     "cardTitle": "Weather Dashboard",
-    "cardText": "Look up the weather anywhere in the United States to plan a vacation. Applications: Bootstrap, JavaScript, jQuery, LocalStorage",
+    "cardText": "Look up the weather anywhere in the United States to plan a vacation.",
+    "cardApplications": "Applications: Bootstrap, JavaScript, jQuery, LocalStorage",
     "anchorDeployed": "https://dazacher.github.io/Weather-Dashboard/",
     "anchorGitHub": "https://github.com/dazacher/Weather-Dashboard"
   },
@@ -22,7 +24,8 @@
     "image": "TimeTracker.png",
     "altTag": "Time Tracker",
     "cardTitle": "Time Tracker",
-    "cardText": "Contract Worker? Keep track of your hours and pay. Full Stack application. Applications: Node.js, Express.js, MySql, Sequelize, Travis CI/CD, Passport.js, ESLint, Moment, bCrypt, CSS, HTML, Bootstrap, JavaScript, API’s, AJAX, JSON, Git Bash, GitHub, Heroku, JawsDB",
+    "cardText": "Contract Worker? Keep track of your hours and pay. Full Stack application.",
+    "cardApplications": "Applications: Node.js, Express.js, MySql, Sequelize, Travis CI/CD, Passport.js, ESLint, Moment, bCrypt, CSS, HTML, Bootstrap, JavaScript, API’s, AJAX, JSON, Git Bash, GitHub, Heroku, JawsDB",
     "anchorDeployed": "https://time-tracker-v-2.herokuapp.com/login",
     "anchorGitHub": "https://github.com/dazacher/Time-Tracker-Project2"
   },
@@ -31,7 +34,8 @@
     "image": "Eat-Da-Burger.jpg",
     "altTag": "Eat-Da_Burger",
     "cardTitle": "Eat-Da-Burger",
-    "cardText": "Have a little fun devouring burgers. Applications: Handlebars.js, Node.js, MySql, Express, Heroku",
+    "cardText": "Have a little fun devouring burgers.",
+    "cardApplications": "Applications: Handlebars.js, Node.js, MySql, Express, Heroku",
     "anchorDeployed": "https://eat-da-burger-das.herokuapp.com/",
     "anchorGitHub": "https://github.com/dazacher/Eat-Da-Burger"
   },
@@ -40,7 +44,8 @@
     "image": "Work-Day-Scheduler.jpg",
     "altTag": "Work Day Scheduler",
     "cardTitle": "Work Day Scheduler",
-    "cardText": "Keep track of your appointments and activities on a daily basis. Applications: Bootstrap, HTML, CSS",
+    "cardText": "Keep track of your appointments and activities on a daily basis.",
+    "cardApplications": "Applications: Bootstrap, HTML, CSS",
     "anchorDeployed": "https://dazacher.github.io/Work_Day_Scheduler/",
     "anchorGitHub": "https://github.com/dazacher/Work_Day_Scheduler"
   },
@@ -49,7 +54,8 @@
     "image": "OOP-Programming.jpg",
     "altTag": "OOP-Programming",
     "cardTitle": "OOP Programming",
-    "cardText": "Keep track of your department employees. Backend application only. Applications: Inquirer, HTML, JavaScript, CSS",
+    "cardText": "Keep track of your department employees. Backend application only.",
+    "cardApplications": "Applications: Inquirer, HTML, JavaScript, CSS",
     "anchorGitHub": "https://github.com/dazacher/OOP-Programming"
   }
 ]
