@@ -34,11 +34,12 @@ class Contact extends Component {
 
   sendMail = (event) => {
     event.preventDefault();
+    var name = this.state.name;
     var yourMessage = this.state.message;
     var subject = this.state.subject;
     document.location.href = "mailto:dazacher2000@yahoo.com?subject="
       + encodeURIComponent(subject)
-      + "&body=" + encodeURIComponent(yourMessage);
+      + "&body=" + encodeURIComponent(name + "\n" + yourMessage);
     this.resetForm();
   };
 
