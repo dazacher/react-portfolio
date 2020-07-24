@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7ef04d46.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.7c9e9e3a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.7c9e9e3a.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.2822e0ce.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.863b9f9f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.863b9f9f.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.af3c1da9.chunk.css": "/react-portfolio/static/css/2.af3c1da9.chunk.css",
     "static/js/2.9ad4039d.chunk.js": "/react-portfolio/static/js/2.9ad4039d.chunk.js",
     "static/js/2.9ad4039d.chunk.js.map": "/react-portfolio/static/js/2.9ad4039d.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.7f0bb4523af039d436f14057af71c3a4.js": "/react-portfolio/precache-manifest.7f0bb4523af039d436f14057af71c3a4.js",
+    "precache-manifest.b765c10b0b74b04a10ca911f8af005e4.js": "/react-portfolio/precache-manifest.b765c10b0b74b04a10ca911f8af005e4.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/react-portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.7ef04d46.chunk.css.map": "/react-portfolio/static/css/main.7ef04d46.chunk.css.map",
+    "static/css/main.2822e0ce.chunk.css.map": "/react-portfolio/static/css/main.2822e0ce.chunk.css.map",
     "static/js/2.9ad4039d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9ad4039d.chunk.js.LICENSE.txt",
+    "static/media/Budget-Tracker.jpg": "/react-portfolio/static/media/Budget-Tracker.5f417444.jpg",
     "static/media/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf": "/react-portfolio/static/media/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.f3cac64a.pdf",
     "static/media/Eat-Da-Burger.jpg": "/react-portfolio/static/media/Eat-Da-Burger.c3a9d593.jpg",
     "static/media/Me.jpeg": "/react-portfolio/static/media/Me.38ee07aa.jpeg",
     "static/media/OOP-Programming.jpg": "/react-portfolio/static/media/OOP-Programming.5e01220f.jpg",
     "static/media/TimeTracker.png": "/react-portfolio/static/media/TimeTracker.e9076580.png",
     "static/media/Trivia-with-Friends.jpg": "/react-portfolio/static/media/Trivia-with-Friends.94b3932c.jpg",
-    "static/media/WeatherDashboard.png": "/react-portfolio/static/media/WeatherDashboard.5a30afeb.png",
-    "static/media/Work-Day-Scheduler.jpg": "/react-portfolio/static/media/Work-Day-Scheduler.70ffea0f.jpg"
+    "static/media/employee-directory.jpg": "/react-portfolio/static/media/employee-directory.ae5b9719.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.9ad4039d.chunk.js",
-    "static/css/main.7ef04d46.chunk.css",
-    "static/js/main.7c9e9e3a.chunk.js"
+    "static/css/main.2822e0ce.chunk.css",
+    "static/js/main.863b9f9f.chunk.js"
   ]
 }
