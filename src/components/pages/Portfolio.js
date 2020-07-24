@@ -3,8 +3,6 @@ import PortfolioCard from "../portfoliocard/PortfolioCard";
 // import NavBar from "../navbar/NavBar";
 import Wrapper from "../wrapper/Wrapper"
 import Row from "react-bootstrap/Row";
-// import CardDeck from "react-bootstrap/CardDeck";
-// import Col from "react-bootstrap/Col";
 import "./Portfolio.css"
 
 function Portfolio(props) {
@@ -21,6 +19,7 @@ function Portfolio(props) {
                 altTag={project.altTag}
                 cardTitle={project.cardTitle}
                 cardText={project.cardText}
+                cardApplication={project.cardApplication}
                 anchorDeployed={project.anchorDeployed}
                 anchorGitHub={project.anchorGitHub}
               />

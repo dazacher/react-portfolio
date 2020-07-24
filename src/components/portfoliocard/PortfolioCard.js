@@ -2,13 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import Button from "react-bootstrap/Button";
-// import CardDeck from "react-bootstrap/CardDeck";
-// import Container from "react-bootstrap/esm/Container";
 import "./PortfolioCard.css"
-// import "../../assets/images/Eat-da-Burger"
-// import Wrapper from "../wrapper/Wrapper"
-
 const imagecontext=require.context("../../assets/images", true)
 
 function PortfolioCard(props) {
