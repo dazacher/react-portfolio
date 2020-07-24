@@ -13,10 +13,10 @@ const Bold = ({ children }) => <Navbar.Brand style={{ fontSize: 'bold' }}>{child
 const NavbarRx = () => {
   return (
     <Navbar className="navbar" responisve="true" variant="dark" expand="lg">
-      <Navbar.Brand className="navbar-brand" href="#/"><Bold><Size>Dee Ann Scanniello</Size></Bold></Navbar.Brand>
+      <Navbar.Brand className="navbar-brand" href="/"><Bold><Size>Dee Ann Scanniello</Size></Bold></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav>
           <NavLink to="/" exact className="nav-link">
             About
         </NavLink>
