@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c426721a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.5ee26bd9.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.5ee26bd9.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.3d1ca565.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f2e742e3.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f2e742e3.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.af3c1da9.chunk.css": "/react-portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.598e3a63.chunk.js": "/react-portfolio/static/js/2.598e3a63.chunk.js",
-    "static/js/2.598e3a63.chunk.js.map": "/react-portfolio/static/js/2.598e3a63.chunk.js.map",
+    "static/js/2.9ad4039d.chunk.js": "/react-portfolio/static/js/2.9ad4039d.chunk.js",
+    "static/js/2.9ad4039d.chunk.js.map": "/react-portfolio/static/js/2.9ad4039d.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.7aa2429a92964d5b1b1fd3257deb6644.js": "/react-portfolio/precache-manifest.7aa2429a92964d5b1b1fd3257deb6644.js",
+    "precache-manifest.fd2ff658d0ea7ff048c9aa55462d934c.js": "/react-portfolio/precache-manifest.fd2ff658d0ea7ff048c9aa55462d934c.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/react-portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c426721a.chunk.css.map": "/react-portfolio/static/css/main.c426721a.chunk.css.map",
-    "static/js/2.598e3a63.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.598e3a63.chunk.js.LICENSE.txt",
+    "static/css/main.3d1ca565.chunk.css.map": "/react-portfolio/static/css/main.3d1ca565.chunk.css.map",
+    "static/js/2.9ad4039d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9ad4039d.chunk.js.LICENSE.txt",
     "static/media/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf": "/react-portfolio/static/media/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.f3cac64a.pdf",
     "static/media/Eat-Da-Burger.jpg": "/react-portfolio/static/media/Eat-Da-Burger.c3a9d593.jpg",
     "static/media/Me.jpeg": "/react-portfolio/static/media/Me.38ee07aa.jpeg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.598e3a63.chunk.js",
-    "static/css/main.c426721a.chunk.css",
-    "static/js/main.5ee26bd9.chunk.js"
+    "static/js/2.9ad4039d.chunk.js",
+    "static/css/main.3d1ca565.chunk.css",
+    "static/js/main.f2e742e3.chunk.js"
   ]
 }
