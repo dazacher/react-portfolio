@@ -1,16 +1,7 @@
-/* body{
-    background-image: url("../../Assets/images/aia.jpg");
-    background-repeat: yes; 
-    background-size: cover; 
-    background-position: center;
-    font-family: 'Kalam', cursive;
-    width: 105%
-} */
-
 /* * Adjust the height and width of the image on the index page and location */ */
 .img-responsive{
-      width: 220px;
-      height: 275px;
+      max-width: 220px;
+      /* height: 275px; */
   }
 
   h1 {

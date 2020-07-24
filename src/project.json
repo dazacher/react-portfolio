@@ -4,7 +4,7 @@
     "image": "Trivia-with-Friends.jpg",
     "altTag": "Trivia with Friends",
     "cardTitle": "Trivia with Friends",
-    "cardText": "A fun trivia style game. Keep track of high score and try to beat it. Applications: Bulma CSS, jQuery, API's, SoundManager2, AJAX, JSON, Git Bash, GitHub",
+    "cardText": "A fun trivia style game. Keep track of high score and try to beat it.<br>Applications: Bulma CSS, jQuery, API's, SoundManager2, AJAX, JSON, Git Bash, GitHub",
     "anchorDeployed": "https://dazacher.github.io/Trivia-With-Friends/",
     "anchorGitHub": "https://github.com/dazacher/Trivia-With-Friends"
   },
@@ -50,7 +50,6 @@
     "altTag": "OOP-Programming",
     "cardTitle": "OOP Programming",
     "cardText": "Keep track of your department employees. Backend application only. Applications: Inquirer, HTML, JavaScript, CSS",
-    "anchorDeployed": "alert(`No Deployed Website for this app`)",
     "anchorGitHub": "https://github.com/dazacher/OOP-Programming"
   }
 ]

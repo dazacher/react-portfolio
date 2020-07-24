@@ -13,10 +13,10 @@ function About() {
             <Row>
                 <Col xs={12} md={3} className="img-fix">
                     {/* <!-- Picture of myself and a couple of paragraphs about myself--> */}
-                    <Image fluid className="responsive-image img-responsive mx-auto" id="deeannImg" src={Me} roundedCircle alt="Dee Ann Scanniello" />
+                    <Image fluid className="img-responsive mx-auto" id="deeannImg" src={Me} roundedCircle alt="Dee Ann Scanniello" />
                 </Col>
                 <Col xs={12} md={9} id="dafs">
-                    <h1>I am Dee Ann...</h1>
+                    <h1>I am Dee&nbsp;Ann...</h1>
                     <p id="fullstack">a full stack web developer</p>
                 </Col>
             </Row>
