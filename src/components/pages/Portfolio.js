@@ -1,6 +1,5 @@
 import React from "react";
 import PortfolioCard from "../portfoliocard/PortfolioCard";
-// import NavBar from "../navbar/NavBar";
 import Wrapper from "../wrapper/Wrapper"
 import Row from "react-bootstrap/Row";
 import "./Portfolio.css"

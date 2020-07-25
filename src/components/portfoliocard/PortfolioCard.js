@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./PortfolioCard.css"
-const imagecontext=require.context("../../assets/images", true)
+const imagecontext = require.context("../../assets/images", true)
 
 function PortfolioCard(props) {
   return (
