@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.919d16b2.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d7933224.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d7933224.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.da6aea1f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.b85070f1.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b85070f1.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.af3c1da9.chunk.css": "/react-portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.dfa968da.chunk.js": "/react-portfolio/static/js/2.dfa968da.chunk.js",
-    "static/js/2.dfa968da.chunk.js.map": "/react-portfolio/static/js/2.dfa968da.chunk.js.map",
+    "static/js/2.9ad4039d.chunk.js": "/react-portfolio/static/js/2.9ad4039d.chunk.js",
+    "static/js/2.9ad4039d.chunk.js.map": "/react-portfolio/static/js/2.9ad4039d.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.48527886e0a3b50e7647ebc29ca36eaf.js": "/react-portfolio/precache-manifest.48527886e0a3b50e7647ebc29ca36eaf.js",
+    "precache-manifest.c7409d13530a08998cbea6bb11b71d87.js": "/react-portfolio/precache-manifest.c7409d13530a08998cbea6bb11b71d87.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/react-portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.919d16b2.chunk.css.map": "/react-portfolio/static/css/main.919d16b2.chunk.css.map",
-    "static/js/2.dfa968da.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.dfa968da.chunk.js.LICENSE.txt",
+    "static/css/main.da6aea1f.chunk.css.map": "/react-portfolio/static/css/main.da6aea1f.chunk.css.map",
+    "static/js/2.9ad4039d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9ad4039d.chunk.js.LICENSE.txt",
     "static/media/Budget-Tracker.jpg": "/react-portfolio/static/media/Budget-Tracker.5f417444.jpg",
     "static/media/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf": "/react-portfolio/static/media/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.f3cac64a.pdf",
     "static/media/Eat-Da-Burger.jpg": "/react-portfolio/static/media/Eat-Da-Burger.c3a9d593.jpg",
+    "static/media/Me.jpeg": "/react-portfolio/static/media/Me.38ee07aa.jpeg",
     "static/media/OOP-Programming.jpg": "/react-portfolio/static/media/OOP-Programming.5e01220f.jpg",
     "static/media/TimeTracker.png": "/react-portfolio/static/media/TimeTracker.e9076580.png",
     "static/media/Trivia-with-Friends.jpg": "/react-portfolio/static/media/Trivia-with-Friends.94b3932c.jpg",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.dfa968da.chunk.js",
-    "static/css/main.919d16b2.chunk.css",
-    "static/js/main.d7933224.chunk.js"
+    "static/js/2.9ad4039d.chunk.js",
+    "static/css/main.da6aea1f.chunk.css",
+    "static/js/main.b85070f1.chunk.js"
   ]
 }
