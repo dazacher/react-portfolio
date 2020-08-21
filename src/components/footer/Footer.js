@@ -8,6 +8,7 @@ import LinkedIn from "../../assets/images/linkedin-3-32.png";
 import "./Footer.css";
 import Container from "react-bootstrap/esm/Container";
 import "aos/dist/aos.css";
+import AOS from "aos";
 AOS.init();
 
 const Footer = () => {
