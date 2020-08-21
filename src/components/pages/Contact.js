@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "./Contact.css";
 import Row from "react-bootstrap/Row";
 import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBInput } from 'mdbreact';
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init();
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// AOS.init();
 
 class Contact extends Component {
 

@@ -7,9 +7,7 @@ import Pdf from "../../assets/images/document-32.png";
 import LinkedIn from "../../assets/images/linkedin-3-32.png";
 import "./Footer.css";
 import Container from "react-bootstrap/esm/Container";
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init();
+
 
 const Footer = () => {
   return (
@@ -22,12 +20,12 @@ const Footer = () => {
       <Row className="text-center">
         <Col xs={12} className="textCenter">
           {/* <!-- Link to my email address so someone can email me. --> */}
-          <div
+          {/* <div
             data-aos="flip-down"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
             data-aos-duration="1200"
-          >
+          > */}
             <a
               href="mailto:dazacher2000@yahoo.com? subject=subject text"
               id="emailImage"
@@ -69,7 +67,7 @@ const Footer = () => {
                 id="linkedin"
               />
             </a>
-          </div>
+          {/* </div> */}
         </Col>
       </Row>
     </Container>

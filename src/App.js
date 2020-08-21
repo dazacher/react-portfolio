@@ -9,6 +9,9 @@ import Portfolio from "./components/pages/Portfolio";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import projects from "./project.json"
+import AOS from "aos";
+import "aos/dist/aos.css";
+// AOS.init();
 
 class App extends Component {
 
@@ -17,6 +20,9 @@ class App extends Component {
     projects
   };
 
+  componentDidMount(){
+    AOS.init();
+  }
   render() {
     return (
   

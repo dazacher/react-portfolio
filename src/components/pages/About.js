@@ -4,9 +4,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init();
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// AOS.init();
 
 function About() {
   return (
