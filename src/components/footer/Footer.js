@@ -7,6 +7,8 @@ import Pdf from "../../assets/images/document-32.png";
 import LinkedIn from "../../assets/images/linkedin-3-32.png";
 import "./Footer.css";
 import Container from "react-bootstrap/esm/Container";
+import "aos/dist/aos.css";
+AOS.init();
 
 const Footer = () => {
   return (
