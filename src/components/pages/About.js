@@ -32,7 +32,7 @@ function About() {
         </Col>
         <Col xs={12} md={9} id="dafs">
           <div
-            data-aos="fade-up-left"
+            data-aos="fade-up-right"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
             data-aos-duration="1600"

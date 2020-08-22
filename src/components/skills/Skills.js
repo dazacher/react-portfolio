@@ -28,7 +28,12 @@ const Skills = () => {
       </Row>
       <Row className="formatRows">
         <Col xs={12} md={3} lg={3} xl={2} className="formatColumns">
-          <a href="https://www.mongodb.com/mern-stack" id="reactImage">
+          <a
+            href="https://www.mongodb.com/mern-stack"
+            id="reactImage"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={Mern}
               alt="mernIcon"
@@ -37,7 +42,12 @@ const Skills = () => {
           </a>
         </Col>
         <Col xs={6} md={3} lg={2} xl={1} className="formatColumns">
-          <a href="https://visualstudio.microsoft.com/" id="vs">
+          <a
+            href="https://visualstudio.microsoft.com/"
+            id="vs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={Vs}
               alt="vsIcon"
@@ -46,7 +56,12 @@ const Skills = () => {
           </a>
         </Col>
         <Col xs={6} md={3} lg={2} xl={1} className="formatColumns">
-          <a href="https://jquery.com/" id="jQuery">
+          <a
+            href="https://jquery.com/"
+            id="jQuery"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={jQuery}
               alt="jQueryIcon"
@@ -72,7 +87,12 @@ const Skills = () => {
         </Col>
         <Col xs={6} md={3} lg={2} xl={1} className="formatColumns">
           {/* <!-- Link to my Resume page --> */}
-          <a href="http://es6-features.org/#Constants" id="es6">
+          <a
+            href="http://es6-features.org/#Constants"
+            id="es6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={Es6}
               alt="Es6"
@@ -83,7 +103,12 @@ const Skills = () => {
         </Col>
         <Col xs={6} md={3} lg={2} xl={1} className="formatColumns">
           {/* <!-- Link to my Resume page --> */}
-          <a href="https://www.mysql.com/" id="mySql">
+          <a
+            href="https://www.mysql.com/"
+            id="mySql"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={mySql}
               alt="mySql"
@@ -93,7 +118,12 @@ const Skills = () => {
         </Col>
         <Col xs={6} md={3} lg={2} xl={1} className="formatColumns">
           {/* <!-- Link to my Resume page --> */}
-          <a href="https://travis-ci.org/" id="travis">
+          <a
+            href="https://travis-ci.org/"
+            id="travis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={Travis}
               alt="travis"
@@ -103,7 +133,12 @@ const Skills = () => {
         </Col>
         <Col xs={6} md={3} lg={2} xl={1} className="formatColumns">
           {/* <!-- Link to my Resume page --> */}
-          <a href="https://www.heroku.com/" id="heroku">
+          <a
+            href="https://www.heroku.com/"
+            id="heroku"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={Heroku}
               alt="heroku"
@@ -113,7 +148,12 @@ const Skills = () => {
         </Col>
         <Col xs={6} md={3} lg={2} xl={1} className="formatColumns">
           {/* <!-- Link to my Resume page --> */}
-          <a href="https://mdbootstrap.com/" id="mdb">
+          <a
+            href="https://mdbootstrap.com/"
+            id="mdb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={Mdb}
               alt="mdb"
@@ -121,14 +161,17 @@ const Skills = () => {
           </a>
           {/* <!-- Link to my LinkedIn page --> */}
         </Col>
-        <Col xs={12} md={3} lg={3} xl={2}className="formatColumns">
+        <Col xs={12} md={3} lg={3} xl={2} className="formatColumns">
           <a
             href="https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript"
             target="_blank"
             rel="noopener noreferrer"
             id="JsHtmlCssImage"
           >
-            <Image src={JsHtmlCss} alt="JsHtmlCss" id="JsHtmlCss" />
+            <Image
+              src={JsHtmlCss}
+              alt="JsHtmlCss"
+              id="JsHtmlCss" />
           </a>
         </Col>
       </Row>
