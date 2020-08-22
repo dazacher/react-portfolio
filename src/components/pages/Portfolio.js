@@ -3,9 +3,7 @@ import PortfolioCard from "../portfoliocard/PortfolioCard";
 import Wrapper from "../wrapper/Wrapper"
 import Row from "react-bootstrap/Row";
 import "./Portfolio.css"
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-// AOS.init();
+
 
 function Portfolio(props) {
 

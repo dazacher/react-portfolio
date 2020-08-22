@@ -1,0 +1,17 @@
+.skillsInfo {
+    align-items: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.formatColumns {
+    text-align: center;
+    /* padding: 0px!important; */
+    padding-top: 15px;
+}
+
+.formatRows {
+    padding: 15px;
+}

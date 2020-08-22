@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import NavBar from "./components/navbar/NavBar"
-import Footer from "./components/footer/Footer"
+import NavBar from "./components/navbar/NavBar";
+import Footer from "./components/footer/Footer";
+import Skills from "./components/skills/Skills";
 import About from "./components/pages/About";
 import Resume from "./components/pages/Resume";
 import Contact from "./components/pages/Contact";
@@ -35,6 +36,7 @@ class App extends Component {
             <Route exact path="/contact" component={Contact} />
           </Switch>
           <Footer />
+          <Skills />
         </Router>
      
     );

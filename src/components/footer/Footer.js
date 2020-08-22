@@ -7,7 +7,7 @@ import Pdf from "../../assets/images/document-32.png";
 import LinkedIn from "../../assets/images/linkedin-3-32.png";
 import "./Footer.css";
 import Container from "react-bootstrap/esm/Container";
-
+import Image from "react-bootstrap/Image";
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
         </Col>
       </Row>
       <Row className="text-center">
-        <Col xs={12} className="textCenter">
+        <Col xs={12}>
           {/* <!-- Link to my email address so someone can email me. --> */}
           {/* <div
             data-aos="flip-down"
@@ -30,7 +30,7 @@ const Footer = () => {
               href="mailto:dazacher2000@yahoo.com? subject=subject text"
               id="emailImage"
             >
-              <img src={Email} className="indexImages" alt="email" id="email" />
+              <img src={Email} alt="email" id="email" />
             </a>
             {/* <!-- Link to my GitHub page --> */}
             <a
@@ -39,9 +39,8 @@ const Footer = () => {
               rel="noopener noreferrer"
               id="githubImage"
             >
-              <img
+              <Image
                 src={GitHub}
-                className="indexImages"
                 alt="Github"
                 id="github"
               />
@@ -51,7 +50,7 @@ const Footer = () => {
               href={require("../../assets/images/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack2.pdf")}
               id="fileImage"
             >
-              <img src={Pdf} className="indexImages" alt="Resume" id="file" />
+              <Image src={Pdf} alt="Resume" id="file" />
             </a>
             {/* <!-- Link to my LinkedIn page --> */}
             <a
@@ -60,9 +59,8 @@ const Footer = () => {
               rel="noopener noreferrer"
               id="linkedinImage"
             >
-              <img
+              <Image
                 src={LinkedIn}
-                className="indexImages"
                 alt="LinkedIn"
                 id="linkedin"
               />
