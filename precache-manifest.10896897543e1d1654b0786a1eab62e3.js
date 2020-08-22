@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4aff66083f4f7c894bac3071ca82f5fc",
+    "revision": "f2dcee1636451000c088b8e4d32ab297",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "f48685b3aaa34b967461",
+    "revision": "e530e1d90d289a58facb",
     "url": "/react-portfolio/static/css/2.5a9a206f.chunk.css"
   },
   {
-    "revision": "028d8cc38e7efa9c7663",
-    "url": "/react-portfolio/static/css/main.6149ee96.chunk.css"
+    "revision": "e810f01c5fba5e066d07",
+    "url": "/react-portfolio/static/css/main.5949f94d.chunk.css"
   },
   {
-    "revision": "f48685b3aaa34b967461",
-    "url": "/react-portfolio/static/js/2.56d90b89.chunk.js"
+    "revision": "e530e1d90d289a58facb",
+    "url": "/react-portfolio/static/js/2.1b973feb.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/react-portfolio/static/js/2.56d90b89.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.1b973feb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "028d8cc38e7efa9c7663",
-    "url": "/react-portfolio/static/js/main.895a4f0d.chunk.js"
+    "revision": "e810f01c5fba5e066d07",
+    "url": "/react-portfolio/static/js/main.d57529b1.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/Eat-Da-Burger.c3a9d593.jpg"
   },
   {
+    "revision": "cd30a6e17c41953d1e12dee0c2414326",
+    "url": "/react-portfolio/static/media/JsHtmlCss-192x192.cd30a6e1.png"
+  },
+  {
     "revision": "5e01220ff7af160dd12a9f08a119fb64",
     "url": "/react-portfolio/static/media/OOP-Programming.5e01220f.jpg"
   },
@@ -54,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae5b97195d57313252d529efca4c0bf6",
     "url": "/react-portfolio/static/media/employee-directory.ae5b9719.jpg"
+  },
+  {
+    "revision": "cec874122f1cddb5b7e50c6815853df0",
+    "url": "/react-portfolio/static/media/mern-dark-192x192.cec87412.png"
   }
 ]);
