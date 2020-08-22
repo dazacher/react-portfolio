@@ -37,7 +37,7 @@ const Skills = () => {
           </a>
         </Col>
         <Col xs={6} md={3} lg={2} xl={1} className="formatColumns">
-          <a href="https://jquery.com/" id="vs">
+          <a href="https://visualstudio.microsoft.com/" id="vs">
             <Image
               src={Vs}
               alt="vsIcon"
