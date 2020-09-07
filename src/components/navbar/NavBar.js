@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
-import Pdf from "../../assets/images/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack2.pdf";
+import Pdf from "../../assets/images/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf";
 import "./NavBar.css"
 
 
