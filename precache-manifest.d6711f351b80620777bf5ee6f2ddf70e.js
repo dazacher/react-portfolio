@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e51721e00b72c01ad6beb81ad0f7cd0",
+    "revision": "cb2700141cb7619a4083838f05e466e0",
     "url": "/react-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/css/2.5a9a206f.chunk.css"
   },
   {
-    "revision": "95a98eb8da76eea86722",
+    "revision": "5a5b47550980690bf02b",
     "url": "/react-portfolio/static/css/main.5949f94d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.1b973feb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95a98eb8da76eea86722",
-    "url": "/react-portfolio/static/js/main.ef5be9c7.chunk.js"
+    "revision": "5a5b47550980690bf02b",
+    "url": "/react-portfolio/static/js/main.79e2f068.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/Budget-Tracker.5f417444.jpg"
   },
   {
-    "revision": "0c66105a3746caa8a5b05faa74363cbe",
-    "url": "/react-portfolio/static/media/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack2.0c66105a.pdf"
+    "revision": "d24ae6987bad992659dd5f7b3b202f6c",
+    "url": "/react-portfolio/static/media/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.d24ae698.pdf"
   },
   {
     "revision": "c3a9d59317b6f99c3cf44c1bf341542a",
