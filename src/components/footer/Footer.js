@@ -47,7 +47,7 @@ const Footer = () => {
             </a>
             {/* <!-- Link to my Resume page --> */}
             <a
-              href={require("../../assets/images/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf")}
+              href={require("../../assets/images/Dee_Ann_Scanniello_Resume_N.pdf")}
               id="fileImage"
             >
               <Image src={Pdf} alt="Resume" id="file" />

@@ -51,22 +51,7 @@ function About() {
         <Col>
           {/* <!-- Picture of myself and a couple of paragraphs about myself--> */}
           <p>
-            My name is Dee Ann Scanniello. I am a Full Stack Web Developer,
-            self-driven, easily adaptable and flexible, with a knack for
-            attention to detail. I have a passion for full stack development.
-            Quick learner, who enjoys challenges and resolving problems. A
-            graduate from the University of Arizona Bootcamp with a Certificate
-            in Full Stack Web Development and a Bachelor’s degree from DeVry
-            University in Computer Information Systems. Skilled in JavaScript,
-            jQuery, Bootstrap, AJAX, Git Bash, Sequealize, Node.js, Express.js,
-            Inquirer, React.js (this Portfolio was created with React.js),
-            MySql2, Git Hub, Travis CI/CD, Handlebars.js, OOP, Heroku, RESTful
-            API's, AOS, Moment, Material Design, Axios, MongoDB, Mongoose, and
-            Visual Studio. Proven soft-skills such as independent, organized,
-            motivated, collaboration, team work, conflict resolution, problem
-            solving, detail-oriented, and have a special skill at final testing
-            software. Looking to grow as a programmer and eventually become a
-            mentor to others.
+            My name is Dee Ann Scanniello. I am a Full Stack Web Developer, self-driven and easily adaptable with a passion for learning, problem-solving and collaborating in a team environment. Quick learner, who enjoys challenges and collaboration. Leveraging my 10+ years programming experience in Ada, C# and SQL for the Insurance industry, Aeronautics Industry and Semiconductor industry to analyze complex problems and build creative solutions. A graduate from the University of Arizona Bootcamp with a Certificate in Full Stack Web Development and a Bachelor’s degree from DeVry University in Computer Information Systems. What I love about programming is that you never stop learning. More importantly, I love to create anything imagined, test it and improve it as technology progresses. Proven soft-skills such as independent, organized, motivated, conflict resolution, working remotely on teams, and detail-oriented.  Looking to grow as a programmer and eventually become a mentor to others. Actively seeking an organization that provides a challenging, inclusive, diverse work environment.
           </p>
         </Col>
       </Row>
